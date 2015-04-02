@@ -7,7 +7,9 @@ gem 'rails', '3.2.18'
 
 #gem 'sqlite3'
 group :development, :test do
-  gem "sqlite3-ruby", :require => "sqlite3"
+  #gem "sqlite3-ruby", :require => "sqlite3"
+  #gem "activerecord-sqlite3-adapter"
+  gem 'sqlite3'
 end
 
 
