@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 ruby "1.9.3"
 gem 'rails', '3.2.18'
 
@@ -9,10 +9,10 @@ gem 'rails', '3.2.18'
 group :development, :test do
   #gem "sqlite3-ruby", :require => "sqlite3"
   #gem "activerecord-sqlite3-adapter"
-  gem 'sqlite3', '1.3.5'
+  #gem 'sqlite3', '1.3.5'
 end
 
-
+gem 'pg'
 
 # Gems used only for assets and not required
 # in production environments by default.

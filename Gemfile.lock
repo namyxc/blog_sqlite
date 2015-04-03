@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     actionmailer (3.2.18)
       actionpack (= 3.2.18)
@@ -62,6 +62,8 @@ GEM
     execjs (2.4.0)
     gherkin (2.12.2)
       multi_json (~> 1.3)
+    gherkin (2.12.2-x86-mingw32)
+      multi_json (~> 1.3)
     hike (1.2.3)
     i18n (0.7.0)
     journey (1.0.4)
@@ -80,6 +82,10 @@ GEM
     multi_test (0.1.1)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
+    nokogiri (1.6.6.2-x86-mingw32)
+      mini_portile (~> 0.6.0)
+    pg (0.18.1)
+    pg (0.18.1-x86-mingw32)
     polyglot (0.3.5)
     rack (1.4.5)
     rack-cache (1.2)
@@ -128,7 +134,6 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sqlite3 (1.3.5)
     thor (0.19.1)
     tilt (1.4.1)
     treetop (1.4.15)
@@ -143,6 +148,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   capybara
@@ -151,8 +157,8 @@ DEPENDENCIES
   database_cleaner
   jquery-rails
   launchy
+  pg
   rails (= 3.2.18)
   rspec-rails
   sass-rails (~> 3.2.3)
-  sqlite3 (= 1.3.5)
   uglifier (>= 1.0.3)
